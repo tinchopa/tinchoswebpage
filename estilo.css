@@ -1,0 +1,48 @@
+body {
+	background-color: #75BACC;
+}
+
+*{	
+	margin: 0px;
+	
+}
+
+h1{
+	height: 10%;
+	display: flex;
+	justify-content: center;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+}
+.block1{
+	width: 33%;
+	height: 90vh;
+	flex-wrap: wrap;
+}
+
+.block1 img{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 40px;
+}
+
+.block2{
+	
+	width: 33%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;	
+}
+
+.block3{		
+	width: 33%;
+	height: 90vh;	
+}
+
+.block3 img{
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 40px;
+}
